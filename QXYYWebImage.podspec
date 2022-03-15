@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.dependency 'QXYYImage'
   s.dependency 'QXYYCache'
 
-  # pod trunk push QXYYWebImage.podspec --allow-warnings
+  # pod trunk push QXYYWebImage.podspec --allow-warnings --verbose
 
   
 end
