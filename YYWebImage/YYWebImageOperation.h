@@ -10,14 +10,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-#if __has_include(<YYWebImage/YYWebImage.h>)
-#import <YYWebImage/YYImageCache.h>
-#import <YYWebImage/YYWebImageManager.h>
-#else
 #import "YYImageCache.h"
 #import "YYWebImageManager.h"
-#endif
 
 NS_ASSUME_NONNULL_BEGIN
 

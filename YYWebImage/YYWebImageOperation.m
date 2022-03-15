@@ -14,12 +14,7 @@
 #import <ImageIO/ImageIO.h>
 #import <libkern/OSAtomic.h>
 
-#if __has_include(<YYImage/YYImage.h>)
-#import <YYImage/YYImage.h>
-#else
-#import "YYImage.h"
-#endif
-
+#import <QXYYImage/YYImage.h>
 
 #define MIN_PROGRESSIVE_TIME_INTERVAL 0.2
 #define MIN_PROGRESSIVE_BLUR_TIME_INTERVAL 0.4

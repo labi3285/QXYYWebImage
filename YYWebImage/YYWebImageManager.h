@@ -10,12 +10,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-#if __has_include(<YYWebImage/YYWebImage.h>)
-#import <YYWebImage/YYImageCache.h>
-#else
 #import "YYImageCache.h"
-#endif
 
 @class YYWebImageOperation;
 

@@ -12,11 +12,7 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
-#if __has_include(<YYWebImage/YYWebImage.h>)
-#import <YYWebImage/YYWebImageManager.h>
-#else
 #import "YYWebImageManager.h"
-#endif
 
 NS_ASSUME_NONNULL_BEGIN
 

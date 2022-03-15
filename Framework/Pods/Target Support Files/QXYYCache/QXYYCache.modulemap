@@ -1,0 +1,6 @@
+framework module QXYYCache {
+  umbrella header "QXYYCache-umbrella.h"
+
+  export *
+  module * { export * }
+}
