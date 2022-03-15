@@ -12,7 +12,7 @@
 #import <UIKit/UIKit.h>
 
 #import <QXYYImage/YYImage.h>
-#import <YYCache/YYCache.h>
+#import <QXYYCache/YYCache.h>
 
 #import "YYImageCache.h"
 #import "YYWebImageOperation.h"
