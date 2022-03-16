@@ -11,21 +11,9 @@
 
 #import <Foundation/Foundation.h>
 
-#if __has_include(<YYCache/YYCache.h>)
-FOUNDATION_EXPORT double YYCacheVersionNumber;
-FOUNDATION_EXPORT const unsigned char YYCacheVersionString[];
-#import <YYCache/YYMemoryCache.h>
-#import <YYCache/YYDiskCache.h>
-#import <YYCache/YYKVStorage.h>
-#elif __has_include(<YYWebImage/YYCache.h>)
-#import <YYWebImage/YYMemoryCache.h>
-#import <YYWebImage/YYDiskCache.h>
-#import <YYWebImage/YYKVStorage.h>
-#else
 #import "YYMemoryCache.h"
 #import "YYDiskCache.h"
 #import "YYKVStorage.h"
-#endif
 
 NS_ASSUME_NONNULL_BEGIN
 

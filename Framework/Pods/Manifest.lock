@@ -1,5 +1,5 @@
 PODS:
-  - QXYYCache (1.0.5)
+  - QXYYCache (1.0.6)
   - QXYYImage (1.0.7):
     - QXYYImage/Core (= 1.0.7)
   - QXYYImage/Core (1.0.7)
@@ -14,7 +14,7 @@ SPEC REPOS:
     - QXYYImage
 
 SPEC CHECKSUMS:
-  QXYYCache: 37c2d716ddfed32ea4f3ccd5fef198a91c932d61
+  QXYYCache: c4dd260e009f46261d957ab0eb146be3f10e3cd3
   QXYYImage: b912dfa37248999a8579d7e759d0c1c86b3bd243
 
 PODFILE CHECKSUM: d3f8fddf38fb43a2a5ccbe3d56bd8769fa753934
