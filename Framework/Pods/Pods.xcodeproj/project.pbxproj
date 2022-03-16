@@ -540,6 +540,35 @@
 			};
 			name = Release;
 		};
+		0D95873F1BE0A7C7A1B2D2675853B9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E357A41F12372DA06057A4726DDAC0 /* QXYYCache.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QXYYCache/QXYYCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QXYYCache/QXYYCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QXYYCache/QXYYCache.modulemap";
+				PRODUCT_MODULE_NAME = QXYYCache;
+				PRODUCT_NAME = QXYYCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -606,9 +635,9 @@
 			};
 			name = Debug;
 		};
-		2E882D9B959673A732FEB4C87F7C9EC6 /* Release */ = {
+		35DB820FD1F1ECDB4FD56847D5DEED51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 618B39BFB849F16C03B8FFBF5E93B25C /* QXYYCache.release.xcconfig */;
+			baseConfigurationReference = C455A43AA451919345A215F3A2592FEF /* QXYYImage.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -618,14 +647,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QXYYCache/QXYYCache-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QXYYCache/QXYYCache-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/QXYYImage/QXYYImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QXYYImage/QXYYImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QXYYCache/QXYYCache.modulemap";
-				PRODUCT_MODULE_NAME = QXYYCache;
-				PRODUCT_NAME = QXYYCache;
+				MODULEMAP_FILE = "Target Support Files/QXYYImage/QXYYImage.modulemap";
+				PRODUCT_MODULE_NAME = QXYYImage;
+				PRODUCT_NAME = QXYYImage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -668,9 +697,9 @@
 			};
 			name = Debug;
 		};
-		C2EC7AA440B83D62B5872937FD4CCA0E /* Release */ = {
+		9DCF9F9431AEA6680A0A0AFDE83E135F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C455A43AA451919345A215F3A2592FEF /* QXYYImage.release.xcconfig */;
+			baseConfigurationReference = E3563654BB0676939C046C3AA5372BE5 /* QXYYImage.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -683,41 +712,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/QXYYImage/QXYYImage-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/QXYYImage/QXYYImage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/QXYYImage/QXYYImage.modulemap";
 				PRODUCT_MODULE_NAME = QXYYImage;
 				PRODUCT_NAME = QXYYImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C79EB2B86F9299F69A1D5599036AD5B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5E357A41F12372DA06057A4726DDAC0 /* QXYYCache.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QXYYCache/QXYYCache-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QXYYCache/QXYYCache-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QXYYCache/QXYYCache.modulemap";
-				PRODUCT_MODULE_NAME = QXYYCache;
-				PRODUCT_NAME = QXYYCache;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -789,9 +788,9 @@
 			};
 			name = Release;
 		};
-		E9C71742CBDE3C431CE2B2D7CA815EA1 /* Debug */ = {
+		CAA0F642D7E3E2D4EA24A432C9311DBD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3563654BB0676939C046C3AA5372BE5 /* QXYYImage.debug.xcconfig */;
+			baseConfigurationReference = 618B39BFB849F16C03B8FFBF5E93B25C /* QXYYCache.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -801,22 +800,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QXYYImage/QXYYImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QXYYImage/QXYYImage-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/QXYYCache/QXYYCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QXYYCache/QXYYCache-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QXYYImage/QXYYImage.modulemap";
-				PRODUCT_MODULE_NAME = QXYYImage;
-				PRODUCT_NAME = QXYYImage;
+				MODULEMAP_FILE = "Target Support Files/QXYYCache/QXYYCache.modulemap";
+				PRODUCT_MODULE_NAME = QXYYCache;
+				PRODUCT_NAME = QXYYCache;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -833,8 +833,8 @@
 		800C70874BCD1D4B04630156E87C66FE /* Build configuration list for PBXNativeTarget "QXYYImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9C71742CBDE3C431CE2B2D7CA815EA1 /* Debug */,
-				C2EC7AA440B83D62B5872937FD4CCA0E /* Release */,
+				9DCF9F9431AEA6680A0A0AFDE83E135F /* Debug */,
+				35DB820FD1F1ECDB4FD56847D5DEED51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -851,8 +851,8 @@
 		F005806D153EC9DF976E7A9FE30CA080 /* Build configuration list for PBXNativeTarget "QXYYCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C79EB2B86F9299F69A1D5599036AD5B0 /* Debug */,
-				2E882D9B959673A732FEB4C87F7C9EC6 /* Release */,
+				0D95873F1BE0A7C7A1B2D2675853B9F5 /* Debug */,
+				CAA0F642D7E3E2D4EA24A432C9311DBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
